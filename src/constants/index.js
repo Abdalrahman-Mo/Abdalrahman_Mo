@@ -19,10 +19,11 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  // /////////////////////
+  glassdoor,
+  lifeTreeBank,
+  github,
+  outdoors,
 } from "../assets";
 
 export const navLinks = [
@@ -46,17 +47,13 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "ReactJS Developer",
     icon: mobile,
   },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+  // {
+  //   title: "Backend Developer",
+  //   icon: backend,
+  // },
 ];
 
 const technologies = [
@@ -88,30 +85,26 @@ const technologies = [
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "Node JS",
+  //   icon: nodejs,
+  // },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "github",
+    icon: github,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
@@ -198,67 +191,67 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Glassdoor Clone",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Glassdoor web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location..",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
+        name: "HTML5",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "CSS3",
         color: "pink-text-gradient",
       },
+      {
+        name: "REACT",
+        color: "blue-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: glassdoor,
+    source_code_link: "https://github.com/Abdalrahman-Mo/Glassdoor-clone-v1",
   },
   {
-    name: "Job IT",
+    name: "Life Tree Bank",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Life Tree Bank is SAAS web application that enable users to chick their bank account from everywhere, and it allows them to transform money to other users .",
     tags: [
       {
-        name: "react",
+        name: "HTML5",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "CSS3",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "JAVASCRIPT",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: lifeTreeBank,
+    source_code_link: "https://github.com/Abdalrahman-Mo/Life-Tree-Bank",
   },
   {
-    name: "Trip Guide",
+    name: "Outdoors",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Outdoors is a single page application that allows users to find the best places to visit.",
     tags: [
       {
-        name: "nextjs",
+        name: "HTML5",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "CSS3",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "SASS",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: outdoors,
+    source_code_link: "https://github.com/Abdalrahman-Mo/outdoors",
   },
 ];
 
